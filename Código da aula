@@ -1,0 +1,36 @@
+public class Produto {
+  
+    private String nome;
+    private int peso;
+    private double preco;
+   
+    public Produto(String nome, int codigo, double preco) {
+        this.nome = nome;
+        this.peso = codigo;
+        this.preco = preco;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getPeso() {
+        return peso;
+    }
+
+    public void setPeso(int peso) {
+        this.peso = peso;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+}
