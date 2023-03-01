@@ -4,9 +4,9 @@ public class Produto {
     private int peso;
     private double preco;
    
-    public Produto(String nome, int codigo, double preco) {
+    public Produto(String nome, int peso, double preco) {
         this.nome = nome;
-        this.peso = codigo;
+        this.peso = peso;
         this.preco = preco;
     }
 
